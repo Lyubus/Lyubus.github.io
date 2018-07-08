@@ -1,0 +1,195 @@
+.header {
+    background-image: url(../img/bgHeader.jpg);
+    height: 980px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.title {
+    text-align: center;
+    margin: 0 auto;
+    color: white;
+}
+
+.name  {
+    
+}
+
+a {
+    text-decoration: none;
+}
+
+.name span {
+    border-bottom: 2px solid white;
+    font-size: 82px;
+    font-family: serif;
+}
+
+.proff {
+    font-size: 50px;
+    font-family: serif;
+}
+
+#goTo {
+    border-radius: 50%;
+    border: 3px solid white;
+    position: absolute;
+    bottom: 20px;
+    text-align: center;
+}
+
+#goTo img {
+    width: 54px;
+    height: 54px;
+}
+
+#goTo:hover {
+    background: url(../img/bgHeaderPattern.png);
+    cursor: pointer;
+}
+
+.main {
+    max-width: 1224px;
+    margin: 0 auto;
+}
+
+.projects {
+    display: flex;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.project {
+    padding: 2%;
+    margin: 10px auto;
+    max-width: 50%;
+    min-width: 33%
+}
+
+.project:hover {
+    padding: 0;
+    cursor: pointer;
+}
+
+.project img:hover {
+    box-shadow: 0 0 40px;
+}
+
+.project img {
+    width: 100%;
+    box-shadow: 0 0 10px;
+}
+
+.contacts {
+    background-color: #dddddd;
+}
+
+.title-2 {
+    text-align: center;
+    font-size: 40px;
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+.contact-blocks {
+    display: flex;
+    margin: 0 auto;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.contact-block {
+    width: 30%;
+    margin: 1.5%;
+}
+
+.block-title {
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.copyright {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.block-main img {
+    height: 20px;
+    padding: 0 4px;
+    opacity: 1;
+}
+
+.block-main img:hover {
+    opacity: .7;
+}
+
+.modal-content {
+    width: 900px;
+    position: absolute;
+    margin-top: 30px;
+}
+
+.modal-dialog {
+    margin: 0;
+}
+
+.modal-body {
+    display: flex;
+}
+
+.modal-body div {
+    width: 100%;
+    padding: 0px 20px 0px 40px;
+}
+
+.modal-body div h2 {
+    text-align: center;
+    margin: 5px 0px 15px;
+}
+
+.modal-body img {
+    width: 50%;
+    max-height: 370px;
+    border: 1px solid #000070;
+}
+
+.modal-title {
+    font-size: 28px;
+}
+
+.close {
+    font-size: 40px;
+}
+
+.strong {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.simpleModal {
+    font-size: 18px;
+}
+
+.work {
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: 600;
+    box-shadow: 0 0 10px;
+    width: 100%;
+    background-color: white;
+    border: 2px solid;
+}
+
+.work:hover {
+    cursor: pointer;
+    opacity: .7;
+    background-color: #eee;
+    box-shadow: 0 0 20px;
+}

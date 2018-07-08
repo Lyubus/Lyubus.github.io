@@ -1,0 +1,332 @@
+body {
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+.grey {
+    background-color: #f5f5f5;
+    width: 100%;
+}
+
+#toUp {
+    position: fixed;
+    left: 0;
+    width: 10%;
+    height: 100%;
+    z-index: 50;
+    background: linear-gradient(to right, rgba(230, 230, 230, 0.49), rgba(255, 255, 255, 0.42));
+    opacity: .45;
+    text-align: center;
+    font-size: 24px;
+}
+
+#toUp:hover {
+    opacity: 1;
+    z-index: 100;
+}
+
+.header {
+    background-color: #84dbb7;
+    width: 100%;
+    position: relative;
+    left: 0;
+    top: 0;
+    overflow: hidden;
+}
+
+.header > div {
+    position: absolute;
+    bottom: 0;
+}
+
+.header > div img {
+    width: 100%;
+}
+
+.clouds {
+    left: 50%;
+    margin-left: -448px;
+}
+
+.grass {
+    left: 50%;
+    margin-left: -482px;
+    z-index: 3;
+    bottom: 20px;
+    position: absolute;
+    margin-bottom: -10px;
+}
+
+.buildings {
+    margin-left: -381px;
+    left: 50%;
+    bottom: 100px;
+    margin-bottom: -20px;
+}
+
+.trees {
+    left: 50%;
+    margin-left: -459px;
+    z-index: 2;
+    margin-bottom: -20px;
+}
+
+.logo {
+    z-index: 3;
+    width: 100%;
+    text-align: center;
+}
+
+.logo span {
+    text-shadow: 5px 5px 60px;
+}
+
+#collapsibleNavbar .navbar-nav {
+    margin: 0 auto;
+}
+
+.collapse .navbar-nav .nav-item a {
+    color: white;
+    margin: 0 7px;
+    cursor: pointer;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.collapse .navbar-nav .nav-item a:hover {
+    color: red;
+    transition: .5s;
+}
+
+.navbar-dark {
+    background-color: rgba(29, 24, 24, 0.8);
+}
+
+.title {
+    text-align-last: center;
+    padding: 54px;
+    font-family: cursive;
+    text-transform: uppercase;
+    font-size: 40px;
+}
+
+.title span {
+    animation-duration: 3s;
+}
+
+.title2 {
+    text-align: center;
+    font-size: 26px;
+    color: #777;
+}
+
+.title3 {
+    text-align: center;
+    font-size: 22px;
+    color: #555;
+}
+
+.main {
+    margin: 0 auto;
+    max-width: 1024px;
+    padding: 30px;
+}
+
+.simpleText {
+    padding: 20px;
+    text-indent: 20px;
+    font-size: 18px;
+}
+
+.block {
+    margin: 10px 0px 50px 0px;
+}
+
+.teamGroup,
+.offerGroup {
+    display: flex;
+}
+
+.teamPerson,
+.offer {
+    width: 30%;
+    margin: 1.5%;
+    text-align: center;
+}
+
+.teamPerson img {
+    width: 80%;
+}
+
+
+.offer img {
+    width: 30%;
+    margin-top: 30px;
+}
+
+.offer .title3 {
+    margin: 10px 0;
+}
+
+.offer .simpleText {
+    font-size: 16px;
+    color: #888888;
+}
+
+.projects .half {
+    display: flex;
+    text-align: center;
+}
+
+.projects {
+    width: 100%;
+    margin: 0 auto;
+    margin-bottom: 40px;
+}
+
+.projects .project {
+    width: 30%;
+    margin: 1.5%;
+    background-color: #f7f7f7;
+    box-shadow: 0 0 10px;
+}
+
+.projects .project:hover{
+    box-shadow: 0 0 30px;
+}
+
+.project-head img {
+    width: 100%;
+    border: 2px solid #fff;
+}
+
+.project-footer {
+    margin: 5px;
+}
+
+.project-footer .title3 {
+    font-weight: bold;
+    padding: 0;
+    margin: 2px;
+}
+
+.project-footer .simpleText {
+    font-size: 16px;
+    margin: 2px;
+    padding: 10px;
+}
+
+.information {
+    margin-top: 50px;
+}
+
+.info {
+    display: flex;
+}
+
+.info img{
+    box-shadow: 0 0 30px;
+    border-radius: 50%;
+}
+
+#show:hover{
+    box-shadow: 0 0 120px;
+    border-radius: 50%;
+}
+
+.right {
+    margin-left: 40.5%;
+}
+
+.left {
+    margin-right: 40.5%;
+}
+
+.info-text .title2 {
+    font-weight: bold;
+}
+
+
+.hidden {
+    display: none;
+}
+
+#show:hover {
+    cursor: pointer;
+}
+
+
+.contact {
+    background-image: url(../img/contact_us_background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+
+
+.contact .title2 {
+    color: black;
+    margin-bottom: 50px;
+}
+
+.input {
+    display: block;
+    width: 100%;
+    box-shadow: 0 0 5px;
+    padding: 10px;
+    margin: 15px;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: black;
+    font-family: cursive;
+    border-radius: 12px;
+}
+
+.textarea {
+    color: #777;
+    font-family: sans-serif;
+    resize: none;
+}
+
+.submit {
+    margin: 0 auto;
+    width: 20%;
+    height: 70px;
+    background-color: #365b72;
+    border: 0;
+    color: azure;
+}
+
+.input:focus,
+.submit:hover {
+    box-shadow: 0 0 30px;
+    cursor: pointer;
+}
+
+.textarea:placeholder-shown {
+    font-family: cursive;
+}
+
+
+
+.footer-text img {
+    height: 18px;
+    padding: 0 4px;
+    opacity: 1;
+}
+
+.footer-text img:hover {
+    opacity: .6;
+}
+
+.footer {
+    background-color: rgba(29, 24, 24, 0.8);
+    height: 150px;
+    text-align: center;
+}
+
+.footer-text p {
+    padding-top: 45px;
+    color: black;
+    font-size: 20px;
+}

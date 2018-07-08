@@ -1,0 +1,372 @@
+body {
+    padding: 0;
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+.main {
+    margin: 0 auto;
+    max-width: 1024px;
+    padding: 10px;
+}
+
+#toUp {
+    position: fixed;
+    z-index: 0;
+    left: 0;
+    top: 56px;
+    opacity: .35;
+    width: 10%;
+    height: 100%;
+    background: linear-gradient(to right, rgba(230, 230, 230, 0.49), rgba(255, 255, 255, 0.42));
+}
+
+#toUp:hover {
+    opacity: .75;
+    z-index: 1;
+}
+
+#toUp-text {
+    text-align: center;
+    padding: 20px 0;
+    color: #1f1f1f;
+    font-size: 18px;
+    font-family: cursive;
+}
+
+
+.navbar-brand {
+    padding: 0;
+    margin: 0 40px 0 0;
+    width: 210px;
+}
+
+.nav-link {
+    margin: 0 7px;
+    cursor: pointer;
+    border-bottom: 3px solid;
+    font-size: 18px;
+}
+
+.nav-link:hover {
+    border-bottom: 3px solid green;
+    transition: .5s;
+}
+
+.navbar-dark {
+    background-color: #2d5d69;
+    height: 70px;
+}
+
+.header {
+    margin-top: 70px;
+    background-image: url(../img/123.jpg);
+    background-size: cover;
+    width: 100%;
+    min-height: 500px;
+    height: 100%;
+    max-height: 670px;
+}
+
+.header-text {
+    text-align: center;
+    color: white;
+    font-size: 3em;
+    padding-top: 200px;
+}
+
+.advantages {
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.advantages-groups {
+    text-align: center;
+}
+
+.advantages-group {
+    display: inline-block;
+    margin: 0 10px;
+    padding: 5px;
+    width: 13%;
+}
+
+.advantages-group p {
+    max-width: 100px;
+}
+
+.advantages-group img {
+    border-bottom: 4px solid #2d5d69;
+    margin: 4px;
+}
+
+.title {
+    text-transform: uppercase;
+    font-size: 26px;
+    text-align: center;
+    padding: 30px;
+}
+
+.half {
+    display: flex;
+    padding-bottom: 20px;
+}
+
+.complex img {
+    padding: 20px;
+    width: 100%;
+}
+
+.complex img:hover {
+    cursor: pointer;
+}
+
+.title-2 {
+    color: white;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+.choose-text {
+    color: white;
+}
+
+.choose img {
+    float: left;
+    padding: 0 20px 0 10px;
+}
+
+.choose-element {
+    margin: 30px 0;
+}
+
+.learn {
+    text-align: center;
+}
+
+.learn-element {
+    width: 21%;
+    background-color: #eaeaea;
+    text-align: center;
+    padding: 15px;
+    margin: 15px;
+    display: inline-block;
+}
+
+.title-3 {
+    padding: 7px 3px;
+}
+
+.teachers {
+    background-image: url(../img/reviewsback.jpg);
+    background-size: cover;
+    width: 100%;
+    text-align: center;
+}
+
+.teacher {
+    margin: 10px;
+    width: 30%;
+    display: inline-block;
+}
+
+.teacher:hover {
+    cursor: pointer;
+}
+
+.teacher img {
+    width: 100%;
+}
+
+.teacher-info {
+    padding: 15px;
+    background-color: rgba(0, 206, 255, 0.35);
+    color: white;
+}
+
+.teacher-info p {
+    padding: 0;
+    margin: 2px;
+}
+
+.teacher-more {
+    padding: 10px;
+    margin: 15px 0;
+    border: 1px solid white;
+    color: white;
+}
+
+.teacher-more:hover {
+    background-color: rgba(0, 157, 255, 0.76);
+    transition: .6s;
+    cursor: pointer;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    margin: -100px;
+}
+
+.qa {
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+}
+
+.half-2 {
+    width: 49%;
+}
+
+.card {
+    background-color: rgb(126, 195, 49);
+    color: #dbdbdb;
+}
+
+.card-header {
+    color: white;
+}
+
+.card-header:hover {
+    cursor: pointer;
+}
+
+/*.about-number:nth-child(odd){
+    color: rgb(29, 139, 205);
+}
+
+.about-number:nth-child(even ){
+    color: rgb(108, 173, 36);
+}*/
+
+.green-2 {
+    color: rgb(29, 139, 205);
+}
+
+.blue-2 {
+    color: rgb(108, 173, 36);
+}
+
+.about-number {
+    font-size: 36px;
+}
+
+.about-groups {
+    display: flex;
+}
+
+.about-single {
+    text-align: center;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.about-single img {
+    width: 100%;
+}
+
+.about-title {
+    text-transform: uppercase;
+}
+
+.images {
+    display: flex;
+}
+
+.img {
+    text-align: center;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.img img {
+    width: 100%;
+}
+
+.reviews {
+    text-align: center;
+    width: 100%;
+}
+
+.review {
+    margin: 10px;
+    width: 29%;
+    display: inline-block;
+}
+
+.review img {
+    width: 100%;
+}
+
+.review-info {
+    color: white;
+}
+
+.name {
+    text-transform: uppercase;
+}
+
+
+.underline {
+    text-decoration: underline;
+}
+
+.teacher-more:hover {
+    background-color: rgba(0, 157, 255, 0.76);
+    transition: .6s;
+    cursor: pointer;
+}
+
+.map {
+    width: 100%;
+}
+
+#map {
+    height: 400px;
+    width: 100%;
+}
+
+
+
+
+
+
+.footer-text img {
+    height: 18px;
+    padding: 0 4px;
+    opacity: 1;
+}
+
+.footer-text img:hover {
+    opacity: .6;
+}
+
+.footer {
+    background-color: #2d5d69;
+    height: 150px;
+    text-align: center;
+}
+
+.footer-text p {
+    padding-top: 45px;
+    color: black;
+    font-size: 20px;
+}
+
+.green {
+    width: 100%;
+    background-color: rgb(108, 173, 36);
+    padding: 10px;
+}
+
+.blue {
+    background-color: rgb(29, 140, 209);
+    width: 100%;
+    padding: 10px;
+}
+
+.white {
+    color: white;
+}

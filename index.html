@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Portfolio</title>
+    <link rel="icon" href="img/logo.gif">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+</head>
+
+<body>
+
+    <header class="header">
+        <div class="title">
+            <div class="name animated fadeInDown">
+                <span>Lyubuskiy Oleg</span>
+            </div>
+            <div class="proff animated fadeInDown">
+                <span>Front-end Developer</span>
+            </div>
+        </div>
+
+        <div id="goTo">
+            <img src="img/angle-down.svg" alt="">
+        </div>
+    </header>
+
+    <div class="main" id="scrollTo">
+        <div class="title-2">
+            <p>Projects</p>
+        </div>
+        <div class="projects">
+            <div class="project">
+                <img data-toggle="modal" data-title="Project 'Logos'" data-git="qw" data-responsive='Yes' data-technology="HTML5, CSS3, JavaScript, JQuery, Bootstrap" data-link="projects/LogosCompany/index.html" data-target="#myModal" src="img/logos.PNG" alt="">
+            </div>
+            <div class="project">
+                <img data-toggle="modal" data-title="Project 'Company'" data-git="as" data-responsive='Yes' data-technology="HTML5, CSS3, JavaScript, JQuery, Bootstrap" data-link="projects/Band/index.html" data-target="#myModal" src="img/band.PNG" alt="">
+            </div>
+        </div>
+
+        <div class="modal" id="myModal">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title"></h5>
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    </div>
+
+                    <div class="modal-body">
+                        <img class="imgModal" src="" alt="">
+                        <div>
+                            <h2 class="description">Description</h2>
+                            <span class="strong">GitHub: </span>
+                            <span class="simpleModal gitUrl"></span>
+                            <p></p>
+                            <span class="strong">Responsive design: </span>
+                            <span class="simpleModal responsive"></span>
+                            <p></p>
+                            <span class="strong">Used technologies: </span>
+                            <span class="simpleModal technology"></span>
+                            <p></p>
+                            <a target="_blank" class="blank" href=""><button class="work">See work</button></a>
+                        </div>
+                    </div>
+                    <div class="modal-header" style="margin-bottom: 30px"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="contacts">
+            <div class="main">
+                <p class="title-2">Contacts</p>
+                <div class="contact-blocks">
+                    <div class="contact-block">
+                        <div class="block-title">
+                            <p>Email</p>
+                        </div>
+                        <div class="block-main">
+                            <p>lyubuskiyy@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-block">
+                        <div class="block-title">
+                            <p>Phone</p>
+                        </div>
+                        <div class="block-main">
+                            <p>+(38) 097 96 654 61</p>
+                        </div>
+                    </div>
+                    <div class="contact-block">
+                        <div class="block-title">
+                            <p>Social</p>
+                        </div>
+                        <div class="block-main">
+                            <a href="https://www.facebook.com/profile.php?id=100009505179177"><img src="img/facebook-f.svg" alt=""></a>
+                            <a href="https://www.instagram.com/mr_lyubus/"><img src="img/instagram.svg" alt=""></a>
+                            <a href="https://vk.com/mr_lyubus"><img src="img/vk.svg" alt=""></a>
+                            <a href="https://plus.google.com/u/0/112282225124863409903"><img src="img/google-plus-g.svg" alt=""></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="copyright">
+            <div class="main">
+                Copyright © Lyubuskiy Oleg, 2018
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>

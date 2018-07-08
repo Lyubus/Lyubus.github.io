@@ -1,0 +1,80 @@
+@media screen and (max-width: 1000px) {
+    .modal-body {
+        display: block;
+        text-align: center;
+    }
+
+    .modal-body img {
+        width: 90%;
+    }
+
+    .modal-content {
+        width: 600px;
+    }
+
+    .strong {
+        display: block;
+        font-size: 22px;
+        font-weight: 500;
+    }
+
+    .simpleModal {
+        font-size: 20px;
+    }
+
+    .work {
+        font-size: 22px;
+        padding: 10px;
+    }
+
+    .modal-title {
+        font-size: 22px;
+    }
+
+    .close {
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width: 720px) {
+    .projects {
+        display: block;
+    }
+
+    .project {
+        width: 100%;
+        padding: 5%;
+        max-width: 100%;
+    }
+
+    .modal-content {
+        width: 90%;
+    }
+    
+    .description{
+        font-size: 25px;
+    }
+
+    .strong {
+        display: inline-block;
+        font-size: 18px;
+        font-weight: 500;
+    }
+
+    .simpleModal {
+        font-size: 16px;
+    }
+
+    .work {
+        font-size: 18px;
+        padding: 6px;
+    }
+
+    .modal-title {
+        font-size: 22px;
+    }
+
+    .close {
+        font-size: 30px;
+    }
+}
