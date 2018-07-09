@@ -58,6 +58,7 @@ function topPx() {
 
 function windowHeight() {
     let windowHeight = $(window).height();
+    let windowWidth = $(window).width();
     let fontSize = windowHeight / 5;
     $('.header').css({
         height: windowHeight + 'px'
@@ -68,6 +69,9 @@ function windowHeight() {
     })
     $('.clouds').css({
         top: fontSize + 'px'
+    })
+    $('body').css({
+        width: windowWidth + 'px'
     })
 }
 

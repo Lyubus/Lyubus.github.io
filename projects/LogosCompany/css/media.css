@@ -165,3 +165,87 @@
         width: 250px;
     }
 }
+
+@media screen and (max-device-width: 720px) {
+    .header-text {
+        font-size: 2.1em;
+    }
+
+    .title {
+        font-size: 23px;
+        padding: 10px;
+    }
+
+    .advantages-group {
+        display: block;
+        padding: 10px;
+        width: 100%;
+    }
+
+    .advantages-group p {
+        margin: 0 auto;
+        font-size: 14px;
+    }
+
+    .half {
+        display: block;
+        width: 70%;
+        margin: 0 auto;
+        padding: 0;
+    }
+
+    .complex {
+        padding: 10px;
+    }
+
+    .choose-element {
+        margin: 15px 0;
+    }
+
+    .title-2 {
+        font-size: 16px;
+    }
+
+    .choose-text {
+        font-size: 14px;
+    }
+
+    .learn-element {
+        padding: 10px;
+        display: block;
+        margin: 15px auto;
+        width: 100%;
+    }
+
+    .teacher {
+        display: block;
+        width: 100%;
+        margin: 10px auto;
+    }
+
+    .carousel-control-prev,
+    .carousel-control-next {
+        display: none;
+    }
+
+    .about-groups {
+        display: block;
+    }
+
+    .about-single img {
+        width: 263px;
+    }
+
+    .images {
+        display: block;
+    }
+
+    .review {
+        display: block;
+        width: 100%;
+    }
+
+    .review img {
+        width: 250px;
+    }
+}

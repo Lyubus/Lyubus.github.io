@@ -1,4 +1,4 @@
-@media screen and (max-width: 1024px) {
+@media (max-width: 1024px) {
     .info {
         display: block;
         width: 100%;
@@ -20,7 +20,7 @@
     }
 }
 
-@media screen and (max-width: 824px) {
+@media (max-width: 824px) {
     .title {
         font-size: 30px;
         padding: 20px;
@@ -57,6 +57,77 @@
 }
 
 @media screen and (max-width: 724px) {
+    .title {
+        font-size: 40px;
+        padding: 25px;
+        text-align: center;
+    }
+
+    .title2 {
+        font-size: 30px;
+    }
+
+    .title3 {
+        font-size: 28px;
+    }
+
+    .simpleText {
+        font-size: 20px;
+    }
+
+    .info-text .title2 {
+        font-size: 20px;
+    }
+
+    .offer .simpleText {
+        font-size: 20px;
+    }
+
+    .project-footer .simpleText {
+        font-size: 22px;
+    }
+
+    .teamGroup,
+    .offerGroup {
+        display: block;
+    }
+
+    .teamPerson,
+    .offer {
+        display: block;
+        width: 100%;
+    }
+
+    .teamPerson img {
+        width: 50%;
+        padding: 10px;
+        margin-top: 20px;
+    }
+
+    .projects .half {
+        display: block;
+    }
+
+    .projects .project {
+        width: 100%;
+        margin: 20px 0;
+    }
+    
+    .input {
+        font-size: 18px;
+        padding: 10px;
+    }
+
+    .submit {
+        width: 80%;
+    }
+    
+    #show{
+        margin-top: 50px;
+    }
+}
+
+@media screen and (max-device-width: 724px) {
     .title {
         font-size: 40px;
         padding: 25px;
