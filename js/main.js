@@ -70,7 +70,6 @@ projects.click(function () {
     let title = $(this).find('img').data('title');
     $('.modal-title').text(title);
     let gitUrl = $(this).find('img').data('git');
-    $('.gitUrl').find('a').text(gitUrl);
     $('.gitUrl').find('a').attr('href', gitUrl);
     let responsive = $(this).find('img').data('responsive');
     $('.responsive').text(responsive);

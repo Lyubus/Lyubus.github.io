@@ -19,13 +19,16 @@ a {
     left: 0;
     top: 56px;
     opacity: .35;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=35)";
     width: 10%;
     height: 100%;
+    background: -webkit-linear-gradient(left, rgba(230, 230, 230, 0.49), rgba(255, 255, 255, 0.42));
     background: linear-gradient(to right, rgba(230, 230, 230, 0.49), rgba(255, 255, 255, 0.42));
 }
 
 #toUp:hover {
     opacity: .75;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=75)";
     z-index: 1;
 }
 
@@ -53,6 +56,7 @@ a {
 
 .nav-link:hover {
     border-bottom: 3px solid green;
+    -webkit-transition: .5s;
     transition: .5s;
 }
 
@@ -111,6 +115,8 @@ a {
 }
 
 .half {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     padding-bottom: 20px;
 }
@@ -201,6 +207,7 @@ a {
 
 .teacher-more:hover {
     background-color: rgba(0, 157, 255, 0.76);
+    -webkit-transition: .6s;
     transition: .6s;
     cursor: pointer;
 }
@@ -213,6 +220,8 @@ a {
 .qa {
     margin: 0 auto;
     text-align: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
 }
 
@@ -254,6 +263,8 @@ a {
 }
 
 .about-groups {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
 }
 
@@ -272,6 +283,8 @@ a {
 }
 
 .images {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
 }
 
@@ -315,6 +328,7 @@ a {
 
 .teacher-more:hover {
     background-color: rgba(0, 157, 255, 0.76);
+    -webkit-transition: .6s;
     transition: .6s;
     cursor: pointer;
 }
@@ -337,10 +351,12 @@ a {
     height: 18px;
     padding: 0 4px;
     opacity: 1;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
 }
 
 .footer-text img:hover {
     opacity: .6;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=60)";
 }
 
 .footer {

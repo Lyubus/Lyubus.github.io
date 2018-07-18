@@ -56,6 +56,8 @@ a {
 }
 
 .projects {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     margin-bottom: 40px;
     text-align: center;
@@ -94,6 +96,8 @@ a {
 }
 
 .contact-blocks {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     margin: 0 auto;
     text-align: center;
@@ -121,10 +125,12 @@ a {
     height: 20px;
     padding: 0 4px;
     opacity: 1;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
 }
 
 .block-main img:hover {
     opacity: .7;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=70)";
 }
 
 .modal-content {
@@ -138,6 +144,8 @@ a {
 }
 
 .modal-body {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
 }
 
@@ -190,6 +198,7 @@ a {
 .work:hover {
     cursor: pointer;
     opacity: .7;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=70)";
     background-color: #eee;
     box-shadow: 0 0 20px;
 }
